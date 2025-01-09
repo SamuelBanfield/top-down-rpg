@@ -1,5 +1,6 @@
 "use client";
 
+import PixiComponent from "@/_components/pixiComponent";
 import { useEffect } from "react";
 
 const websocketHost = "192.168.0.16";
@@ -37,6 +38,7 @@ export default function Home() {
 
   return (
     <main className="">
+      <PixiComponent />
     </main>
   );
 }
